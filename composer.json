@@ -1,0 +1,19 @@
+{
+    "name": "ennnnny/tbk",
+    "description": "简约优雅的淘宝客SDK",
+    "keywords": ["淘宝客", "tbk", "sdk"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0",
+        "pimple/pimple": "3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ETaobao\\": "src/"
+        },
+        "files": [
+            "src/Kernel/Support/Helpers.php"
+        ]
+    }
+}
