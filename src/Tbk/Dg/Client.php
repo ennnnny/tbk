@@ -53,7 +53,7 @@ class Client extends BaseClient
      */
     public function optionalMaterial(array $params)
     {
-        $res = $this->httpPost('taobao.tbk.dg.newuser.order.get', $params);
+        $res = $this->httpPost('taobao.tbk.dg.material.optional', $params);
         return $res;
     }
 }
