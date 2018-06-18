@@ -59,10 +59,16 @@ print_r($res);
 | taobao.tbk.coupon.get (阿里妈妈推广券信息查询)   |    \$app->coupon->get()  |
 | taobao.tbk.tpwd.create (淘宝客淘口令)     |    \$app->tpwd->create()  |
 | taobao.tbk.content.get (淘客媒体内容输出)    |    \$app->content->get()  |
-| taobao.tbk.dg.newuser.order.get (淘宝客新用户订单API--导购)    |    \$app->dg->getOrderNewuser()  |
-| taobao.tbk.sc.newuser.order.get (淘宝客新用户订单API--社交)     |    \$app->sc->getOrderNewuser()  |
-| taobao.tbk.sc.material.optional (通用物料搜索API)     |    \$app->sc->optionalMaterial()  |
-| taobao.tbk.dg.material.optional (通用物料搜索API（导购）)     |    \$app->dg->optionalMaterial()  |
+| taobao.tbk.dg.newuser.order.get (淘宝客新用户订单API--导购)    |    \$app->dg->getOrderNewUser()  |
+| taobao.tbk.sc.newuser.order.get (淘宝客新用户订单API--社交)     |    \$app->sc->getOrderNewUser()  |
+| taobao.tbk.sc.material.optional (通用物料搜索API)     |    \$app->sc->materialOptional()  |
+| taobao.tbk.dg.material.optional (通用物料搜索API（导购）)     |    \$app->dg->materialOptional()  |
+| taobao.tbk.dg.newuser.order.sum (拉新活动汇总API--社交)     |    \$app->dg->sumOrderNewUser()  |
+| taobao.tbk.sc.newuser.order.sum (拉新活动汇总API--社交)     |    \$app->sc->sumOrderNewUser()  |
+| taobao.tbk.sc.optimus.material (淘宝客擎天柱通用物料API - 社交)     |    \$app->sc->materialOptimus()  |
+| taobao.tbk.sc.publisher.info.save (淘宝客渠道信息备案 - 社交)     |    \$app->sc->savePublisherInfo()  |
+| taobao.tbk.sc.publisher.info.get (淘宝客信息查询 - 社交)     |    \$app->sc->getPublisherInfo()  |
+| taobao.tbk.sc.invitecode.get (淘宝客邀请码生成-社交)     |    \$app->sc->getInviteCode()  |
 
 
 ## 支持

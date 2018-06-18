@@ -39,7 +39,7 @@ class Client extends BaseClient
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
-    public function getOrderNewuser(array $params)
+    public function getOrderNewUser(array $params)
     {
         $res = $this->httpPost('taobao.tbk.dg.newuser.order.get', $params);
         return $res;
@@ -51,9 +51,21 @@ class Client extends BaseClient
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
-    public function optionalMaterial(array $params)
+    public function materialOptional(array $params)
     {
         $res = $this->httpPost('taobao.tbk.dg.material.optional', $params);
+        return $res;
+    }
+
+    /**
+     * taobao.tbk.sc.newuser.order.sum (拉新活动汇总API--社交)
+     * @line http://open.taobao.com/docs/api.htm?apiId=36836
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function sumOrderNewUser(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.dg.newuser.order.sum', $params);
         return $res;
     }
 }
