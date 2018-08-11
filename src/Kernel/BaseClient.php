@@ -64,9 +64,9 @@ class BaseClient
 
     /**
      * POST request.
-     *
      * @param $method
      * @param array $data
+     * @return array|mixed|\SimpleXMLElement|string
      */
     public function httpPost($method, array $data = [])
     {

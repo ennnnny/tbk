@@ -104,4 +104,40 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.sc.invitecode.get', $params);
         return $res;
     }
+
+    /**
+     * taobao.tbk.sc.groupchat.message.send (手淘群发单)
+     * @line http://open.taobao.com/api.htm?docId=38243
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function sendGroupchat(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.sc.groupchat.message.send', $params);
+        return $res;
+    }
+
+    /**
+     * taobao.tbk.sc.groupchat.create (手淘群创建)
+     * @line http://open.taobao.com/api.htm?docId=38262
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function createGroupchat(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.sc.groupchat.create', $params);
+        return $res;
+    }
+
+    /**
+     * taobao.tbk.sc.groupchat.get (手淘群查询)
+     * @line http://open.taobao.com/api.htm?docId=38263
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function getGroupchat(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.sc.groupchat.get', $params);
+        return $res;
+    }
 }

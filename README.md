@@ -69,6 +69,9 @@ print_r($res);
 | taobao.tbk.sc.publisher.info.save (淘宝客渠道信息备案 - 社交)     |    \$app->sc->savePublisherInfo()  |
 | taobao.tbk.sc.publisher.info.get (淘宝客信息查询 - 社交)     |    \$app->sc->getPublisherInfo()  |
 | taobao.tbk.sc.invitecode.get (淘宝客邀请码生成-社交)     |    \$app->sc->getInviteCode()  |
+| taobao.tbk.sc.groupchat.message.send( 手淘群发单 )     |    \$app->sc->sendGroupchat()  |
+| taobao.tbk.sc.groupchat.create( 手淘群创建 )     |    \$app->sc->createGroupchat()  |
+| taobao.tbk.sc.groupchat.get( 手淘群查询 )     |    \$app->sc->getGroupchat()  |
 
 
 ## 支持
