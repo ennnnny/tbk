@@ -140,4 +140,17 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.sc.groupchat.get', $params);
         return $res;
     }
+
+    /**
+     * 线下新零售渠道备案
+     * taobao.tbk.offline.sc.info.save( 线下新零售渠道备案 )
+     * @line http://open.taobao.com/api.htm?docId=40129&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function saveOfflineInfo(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.offline.sc.info.save', $params);
+        return $res;
+    }
 }

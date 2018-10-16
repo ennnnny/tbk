@@ -68,4 +68,30 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.dg.newuser.order.sum', $params);
         return $res;
     }
+
+    /**
+     * 通用物料推荐，传入官方公布的物料id，可获取指定物料
+     * taobao.tbk.dg.optimus.material( 淘宝客物料下行-导购 )
+     * @line http://open.taobao.com/api.htm?docId=33947&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function materialOptimus(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.dg.optimus.material', $params);
+        return $res;
+    }
+
+    /**
+     * 创建淘礼金
+     * taobao.tbk.dg.vegas.tlj.create( 淘礼金创建 )
+     * @line http://open.taobao.com/api.htm?docId=40173&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function createTlj(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.dg.vegas.tlj.create', $params);
+        return $res;
+    }
 }

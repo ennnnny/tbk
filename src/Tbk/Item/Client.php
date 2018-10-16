@@ -80,4 +80,17 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.item.guess.like', $params);
         return $res;
     }
+
+    /**
+     * 从长链接或短链接中解析出open_iid
+     * taobao.tbk.item.click.extract( 链接解析api )
+     * @line http://open.taobao.com/api.htm?docId=28156&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function clickExtract(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.item.click.extract', $params);
+        return $res;
+    }
 }
