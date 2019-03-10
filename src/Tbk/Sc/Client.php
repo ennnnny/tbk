@@ -153,4 +153,29 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.offline.sc.info.save', $params);
         return $res;
     }
+
+    /**
+     * 淘宝联盟官方活动推广API-媒体
+     * @line https://open.taobao.com/api.htm?docId=41918&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function getActivityLink(array  $params)
+    {
+        $res = $this->httpPost('taobao.tbk.activitylink.get', $params);
+        return $res;
+    }
+
+    /**
+     * 淘宝联盟官方活动推广API-工具
+     * @line https://open.taobao.com/api.htm?docId=41921&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function getActivityTool(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.sc.activitylink.toolget', $params);
+        return $res;
+    }
+
 }

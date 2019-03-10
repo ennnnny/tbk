@@ -48,8 +48,8 @@ print_r($res);
 | taobao.tbk.shop.recommend.get (淘宝客店铺关联推荐查询)        |    \$app->shop->getRecommend()  |
 | taobao.tbk.rebate.auth.get (淘宝客返利授权查询)[**官网貌似已移除此接口**]        |    \$app->rebate->getAuth()  |
 | taobao.tbk.rebate.order.get (淘宝客返利订单查询)[**官网貌似已移除此接口**]       |    \$app->rebate->getOrder()  |
-| taobao.tbk.uatm.event.get (枚举正在进行中的定向招商的活动列表)        |    \$app->uatm->getEvent()  |
-| taobao.tbk.uatm.event.item.get (获取淘宝联盟定向招商的宝贝信息)  |    \$app->uatm->getItemEvent()  |
+| taobao.tbk.uatm.event.get (枚举正在进行中的定向招商的活动列表)[**官网貌似已移除此接口**]        |    \$app->uatm->getEvent()  |
+| taobao.tbk.uatm.event.item.get (获取淘宝联盟定向招商的宝贝信息)[**官网貌似已移除此接口**]  |    \$app->uatm->getItemEvent()  |
 | taobao.tbk.uatm.favorites.item.get (获取淘宝联盟选品库的宝贝信息)   |    \$app->uatm->getItemFavorites()  |
 | taobao.tbk.uatm.favorites.get (获取淘宝联盟选品库列表)   |    \$app->uatm->getFavorites()  |
 | taobao.tbk.ju.tqg.get (淘抢购api)    |    \$app->ju->getTqg()  |
@@ -74,8 +74,11 @@ print_r($res);
 | taobao.tbk.sc.groupchat.message.send( 手淘群发单 )[**官网貌似已移除此接口**]     |    \$app->sc->sendGroupchat()  |
 | taobao.tbk.sc.groupchat.create( 手淘群创建 )[**官网貌似已移除此接口**]     |    \$app->sc->createGroupchat()  |
 | taobao.tbk.sc.groupchat.get( 手淘群查询 )[**官网貌似已移除此接口**]     |    \$app->sc->getGroupchat()  |
-| taobao.tbk.offline.sc.info.save( 线下新零售渠道备案 )     |    \$app->sc->saveOfflineInfo()  |
-| taobao.tbk.dg.vegas.tlj.create( 淘礼金创建 )     |    \$app->dg->createTlj()  |
+| taobao.tbk.offline.sc.info.save( 线下新零售渠道备案 )[**官网貌似已移除此接口**]     |    \$app->sc->saveOfflineInfo()  |
+| taobao.tbk.dg.vegas.tlj.create( 淘礼金创建 )[**官网貌似已移除此接口**]     |    \$app->dg->createTlj()  |
+| taobao.tbk.activitylink.get( 淘宝联盟官方活动推广API-媒体 )     |    \$app->sc->getActivityLink()  |
+| taobao.tbk.sc.activitylink.toolget( 淘宝联盟官方活动推广API-工具 )     |    \$app->sc->getActivityTool()  |
+| taobao.tbk.dg.punish.order.get( 处罚订单查询 -导购-私域用户管理专用 )     |    \$app->dg->getPunishOrder()  |
 
 ## 支持
 
