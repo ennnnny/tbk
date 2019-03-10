@@ -22,7 +22,7 @@ class Client extends BaseClient
 {
     /**
      * taobao.tbk.rebate.auth.get (淘宝客返利授权查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24525
+     * @line http://open.taobao.com/docs/api.htm?apiId=24525&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -34,7 +34,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.rebate.order.get (淘宝客返利订单查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24526
+     * @line http://open.taobao.com/docs/api.htm?apiId=24526&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

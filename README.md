@@ -23,6 +23,7 @@ $config = [
     'appkey' => '',
     'secretKey' => '',
     'format' => 'json',
+    'session' => '',//授权接口（sc类的接口）需要带上
     'sandbox' => false,
 ];
 
@@ -76,7 +77,7 @@ print_r($res);
 | taobao.tbk.sc.groupchat.get( 手淘群查询 )[**官网貌似已移除此接口**]     |    \$app->sc->getGroupchat()  |
 | taobao.tbk.offline.sc.info.save( 线下新零售渠道备案 )[**官网貌似已移除此接口**]     |    \$app->sc->saveOfflineInfo()  |
 | taobao.tbk.dg.vegas.tlj.create( 淘礼金创建 )[**官网貌似已移除此接口**]     |    \$app->dg->createTlj()  |
-| taobao.tbk.activitylink.get( 淘宝联盟官方活动推广API-媒体 )     |    \$app->sc->getActivityLink()  |
+| taobao.tbk.activitylink.get( 淘宝联盟官方活动推广API-媒体 )     |    \$app->content->getActivityLink()  |
 | taobao.tbk.sc.activitylink.toolget( 淘宝联盟官方活动推广API-工具 )     |    \$app->sc->getActivityTool()  |
 | taobao.tbk.dg.punish.order.get( 处罚订单查询 -导购-私域用户管理专用 )     |    \$app->dg->getPunishOrder()  |
 

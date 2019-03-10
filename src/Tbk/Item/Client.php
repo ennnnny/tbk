@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.item.get (淘宝客商品查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24515
+     * @line http://open.taobao.com/docs/api.htm?apiId=24515&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -35,7 +35,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.item.convert (淘宝客商品链接转换)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24516
+     * @line http://open.taobao.com/docs/api.htm?apiId=24516&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -47,7 +47,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.item.recommend.get (淘宝客商品关联推荐查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24517
+     * @line http://open.taobao.com/docs/api.htm?apiId=24517&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -59,7 +59,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.item.info.get (淘宝客商品详情（简版）)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24518
+     * @line http://open.taobao.com/docs/api.htm?apiId=24518&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -71,7 +71,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.item.guess.like (淘宝客商品猜你喜欢)
-     * @line http://open.taobao.com/docs/api.htm?apiId=29528
+     * @line http://open.taobao.com/docs/api.htm?apiId=29528&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

@@ -23,13 +23,25 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.content.get (淘客媒体内容输出)
-     * @line http://open.taobao.com/docs/api.htm?apiId=31137
+     * @line http://open.taobao.com/docs/api.htm?apiId=31137&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
     public function get(array $params)
     {
         $res = $this->httpPost('taobao.tbk.content.get', $params);
+        return $res;
+    }
+
+    /**
+     * 淘宝联盟官方活动推广API-媒体
+     * @line https://open.taobao.com/api.htm?docId=41918&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string
+     */
+    public function getActivityLink(array  $params)
+    {
+        $res = $this->httpPost('taobao.tbk.activitylink.get', $params);
         return $res;
     }
 

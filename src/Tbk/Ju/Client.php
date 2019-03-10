@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.ju.tqg.get (淘抢购api)
-     * @line http://open.taobao.com/docs/api.htm?apiId=27543
+     * @line http://open.taobao.com/docs/api.htm?apiId=27543&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

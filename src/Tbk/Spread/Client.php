@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.spread.get (物料传播方式获取)
-     * @line http://open.taobao.com/docs/api.htm?apiId=27832
+     * @line http://open.taobao.com/docs/api.htm?apiId=27832&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

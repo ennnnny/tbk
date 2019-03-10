@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.dg.item.coupon.get (好券清单API【导购】)
-     * @line http://open.taobao.com/docs/api.htm?apiId=29821
+     * @line http://open.taobao.com/docs/api.htm?apiId=29821&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -35,7 +35,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.dg.newuser.order.get (淘宝客新用户订单API--导购)
-     * @line http://open.taobao.com/docs/api.htm?apiId=33892
+     * @line http://open.taobao.com/docs/api.htm?apiId=33892&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -47,7 +47,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.dg.material.optional (通用物料搜索API（导购）)
-     * @line http://open.taobao.com/docs/api.htm?apiId=35896
+     * @line http://open.taobao.com/docs/api.htm?apiId=35896&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -59,7 +59,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.sc.newuser.order.sum (拉新活动汇总API--社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=36836
+     * @line http://open.taobao.com/docs/api.htm?apiId=36836&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

@@ -7,6 +7,7 @@ $config = [
     'appkey' => '',
     'secretKey' => '',
     'format' => 'json',
+    'session' => '',
     'sandbox' => false,
 ];
 $app = Factory::Tbk($config);

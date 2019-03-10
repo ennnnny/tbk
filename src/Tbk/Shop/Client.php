@@ -22,7 +22,7 @@ class Client extends BaseClient
 {
     /**
      * taobao.tbk.shop.get (淘宝客店铺查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24521
+     * @line http://open.taobao.com/docs/api.htm?apiId=24521&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -34,7 +34,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.shop.recommend.get (淘宝客店铺关联推荐查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24522
+     * @line http://open.taobao.com/docs/api.htm?apiId=24522&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

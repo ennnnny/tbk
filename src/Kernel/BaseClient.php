@@ -64,11 +64,12 @@ class BaseClient
 
     /**
      * POST request.
-     * @param $method
-     * @param array $data
+     * @param $method 接口名称
+     * @param array $data 请求参数
+     * @param bool $auth 是否需要授权
      * @return array|mixed|\SimpleXMLElement|string
      */
-    public function httpPost($method, array $data = [])
+    public function httpPost($method, array $data = [], $auth = false)
     {
         //组装系统参数
         $sysParams["app_key"] = $this->globalConfig['appkey'];
@@ -78,6 +79,15 @@ class BaseClient
         $sysParams["method"] = $method;
         $sysParams["timestamp"] = date("Y-m-d H:i:s");
         $sysParams["sign"] = Support\generateSign(array_merge($data, $sysParams), $this->globalConfig['secretKey']);
+        if ($auth){
+            if (isset($this->globalConfig['session']) && !empty($this->globalConfig['session'])){
+                $sysParams["session"] = $this->globalConfig['session'];
+            }else{
+                $result['code'] = 0;
+                $result['msg'] = "NEED TO SET SESSION";
+                return $result;
+            }
+        }
         $requestUrl = $this->baseUri . '?';
         foreach ($sysParams as $sysParamKey => $sysParamValue) {
             $requestUrl .= "$sysParamKey=" . urlencode($sysParamValue) . "&";

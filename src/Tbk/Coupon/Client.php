@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.coupon.get (阿里妈妈推广券信息查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=31106
+     * @line http://open.taobao.com/docs/api.htm?apiId=31106&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

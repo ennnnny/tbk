@@ -23,7 +23,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.uatm.event.get (枚举正在进行中的定向招商的活动列表)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26449
+     * @line http://open.taobao.com/docs/api.htm?apiId=26449&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -35,7 +35,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.uatm.event.item.get (获取淘宝联盟定向招商的宝贝信息)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26616
+     * @line http://open.taobao.com/docs/api.htm?apiId=26616&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -47,7 +47,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.uatm.favorites.item.get (获取淘宝联盟选品库的宝贝信息)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26619
+     * @line http://open.taobao.com/docs/api.htm?apiId=26619&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -59,7 +59,7 @@ class Client extends BaseClient
 
     /**
      * taobao.tbk.uatm.favorites.get (获取淘宝联盟选品库列表)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26620
+     * @line http://open.taobao.com/docs/api.htm?apiId=26620&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
