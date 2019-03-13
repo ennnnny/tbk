@@ -29,6 +29,7 @@ use ETaobao\Kernel\ServiceContainer;
  * @property \ETaobao\Tbk\Tpwd\Client               $tpwd
  * @property \ETaobao\Tbk\Content\Client            $content
  * @property \ETaobao\Tbk\Sc\Client                 $sc
+ * @property \ETaobao\Tbk\Order\Client              $order
  */
 class Application extends ServiceContainer
 {
@@ -47,5 +48,6 @@ class Application extends ServiceContainer
         Tpwd\ServiceProvider::class,
         Content\ServiceProvider::class,
         Sc\ServiceProvider::class,
+        Order\ServiceProvider::class,
     ];
 }

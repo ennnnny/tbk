@@ -80,10 +80,13 @@ print_r($res);
 | taobao.tbk.activitylink.get( 淘宝联盟官方活动推广API-媒体 )     |    \$app->content->getActivityLink()  |
 | taobao.tbk.sc.activitylink.toolget( 淘宝联盟官方活动推广API-工具 )     |    \$app->sc->getActivityTool()  |
 | taobao.tbk.dg.punish.order.get( 处罚订单查询 -导购-私域用户管理专用 )     |    \$app->dg->getPunishOrder()  |
+| taobao.tbk.order.get( 淘宝客订单查询 )     |    \$app->order->get()  |
+| taobao.tbk.relation.refund( 淘宝客维权退款订单查询-私域用户管理专用 )     |    \$app->order->getRefund()  |
 
 ## 支持
 
 - 官方API文档： http://open.taobao.com/docs/api.htm?apiId=24515
+- 淘宝客订单API： https://open.taobao.com/api.htm?docId=24527&docType=2&scopeId=11650
 - composer： https://getcomposer.org/
 
 ## License
