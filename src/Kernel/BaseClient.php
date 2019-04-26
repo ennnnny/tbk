@@ -78,7 +78,6 @@ class BaseClient
         $sysParams["sign_method"] = $this->globalConfig['signMethod'];
         $sysParams["method"] = $method;
         $sysParams["timestamp"] = date("Y-m-d H:i:s");
-        $sysParams["sign"] = Support\generateSign(array_merge($data, $sysParams), $this->globalConfig['secretKey']);
         if ($auth){
             if (isset($this->globalConfig['session']) && !empty($this->globalConfig['session'])){
                 $sysParams["session"] = $this->globalConfig['session'];
@@ -88,6 +87,7 @@ class BaseClient
                 return $result;
             }
         }
+        $sysParams["sign"] = Support\generateSign(array_merge($data, $sysParams), $this->globalConfig['secretKey']);
         $requestUrl = $this->baseUri . '?';
         foreach ($sysParams as $sysParamKey => $sysParamValue) {
             $requestUrl .= "$sysParamKey=" . urlencode($sysParamValue) . "&";
