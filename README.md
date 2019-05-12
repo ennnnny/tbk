@@ -57,7 +57,7 @@ print_r($res);
 | taobao.tbk.item.click.extract (链接解析api)    |    \$app->item->clickExtract()  |
 | taobao.tbk.spread.get (物料传播方式获取)[**官网貌似已移除此接口**]    |    \$app->spread->get()  |
 | taobao.tbk.item.guess.like (淘宝客商品猜你喜欢)   |    \$app->item->likeGuess()  |
-| taobao.tbk.dg.item.coupon.get (好券清单API【导购】)    |    \$app->dg->getCouponItem()  |
+| taobao.tbk.dg.item.coupon.get (好券清单API【导购】)    |    \$app->dg->getCoupon()  |
 | taobao.tbk.coupon.get (阿里妈妈推广券信息查询)   |    \$app->coupon->get()  |
 | taobao.tbk.tpwd.create (淘宝客淘口令)     |    \$app->tpwd->create()  |
 | taobao.tbk.content.get (淘客媒体内容输出)[**官网貌似已移除此接口**]    |    \$app->content->get()  |
