@@ -81,7 +81,8 @@ print_r($res);
 | taobao.tbk.sc.activitylink.toolget( 淘宝联盟官方活动推广API-工具 )     |    \$app->sc->getActivityTool()  |
 | taobao.tbk.dg.punish.order.get( 处罚订单查询 -导购-私域用户管理专用 )     |    \$app->dg->getPunishOrder()  |
 | taobao.tbk.order.get( 淘宝客订单查询 )     |    \$app->order->get()  |
-| taobao.tbk.relation.refund( 淘宝客维权退款订单查询-私域用户管理专用 )     |    \$app->order->getRefund()  |
+| taobao.tbk.relation.refund( 淘宝客-推广者-维权退款订单查询 )     |    \$app->order->getRefund()  |
+| taobao.tbk.order.details.get( 淘宝客-推广者-所有订单查询 )    |   \$app->order->getDetails()   |
 
 ## 支持
 
