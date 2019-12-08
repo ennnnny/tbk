@@ -22,8 +22,8 @@ class Client extends BaseClient
 {
 
     /**
-     * taobao.tbk.tpwd.create (淘宝客淘口令)
-     * @line http://open.taobao.com/docs/api.htm?apiId=31127&docType=2
+     * taobao.tbk.tpwd.create (淘宝客-公用-淘口令生成)
+     * @line https://open.taobao.com/api.htm?docId=31127&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

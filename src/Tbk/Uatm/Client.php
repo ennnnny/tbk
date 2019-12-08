@@ -20,7 +20,6 @@ use ETaobao\Kernel\BaseClient;
  */
 class Client extends BaseClient
 {
-
     /**
      * taobao.tbk.uatm.event.get (枚举正在进行中的定向招商的活动列表)
      * @line http://open.taobao.com/docs/api.htm?apiId=26449&docType=2
@@ -46,8 +45,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.uatm.favorites.item.get (获取淘宝联盟选品库的宝贝信息)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26619&docType=2
+     * taobao.tbk.uatm.favorites.item.get (淘宝客-推广者-选品库宝贝信息)
+     * @line https://open.taobao.com/api.htm?docId=26619&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -58,8 +57,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.uatm.favorites.get (获取淘宝联盟选品库列表)
-     * @line http://open.taobao.com/docs/api.htm?apiId=26620&docType=2
+     * taobao.tbk.uatm.favorites.get (淘宝客-推广者-选品库宝贝列表)
+     * @line https://open.taobao.com/api.htm?docId=26620&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

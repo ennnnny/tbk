@@ -34,8 +34,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.item.convert (淘宝客商品链接转换)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24516&docType=2
+     * taobao.tbk.item.convert (淘宝客-推广者-商品链接转换)
+     * @line https://open.taobao.com/api.htm?docId=24516&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -46,8 +46,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.item.recommend.get (淘宝客商品关联推荐查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24517&docType=2
+     * taobao.tbk.item.recommend.get (淘宝客-公用-商品关联推荐)
+     * @line https://open.taobao.com/api.htm?docId=24517&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -58,8 +58,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.item.info.get (淘宝客商品详情（简版）)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24518&docType=2
+     * taobao.tbk.item.info.get (淘宝客-公用-淘宝客商品详情查询(简版))
+     * @line https://open.taobao.com/api.htm?docId=24518&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -83,8 +83,8 @@ class Client extends BaseClient
 
     /**
      * 从长链接或短链接中解析出open_iid
-     * taobao.tbk.item.click.extract( 链接解析api )
-     * @line http://open.taobao.com/api.htm?docId=28156&docType=2
+     * taobao.tbk.item.click.extract(淘宝客-公用-链接解析出商品id)
+     * @line https://open.taobao.com/api.htm?docId=28156&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

@@ -12,10 +12,10 @@ $config = [
 ];
 $app = Factory::Tbk($config);
 $param = [
-   'fields' => 'num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,seller_id,volume,nick',
-   'q' => '蚊香'
+    'text' => '长度大于5个字符',
+    'url' => 'https://uland.taobao.com/'
 ];
-$res = $app->item->get($param);
+$res = $app->tpwd->create($param);
 
 
 print_r($res);

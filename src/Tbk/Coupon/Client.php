@@ -20,10 +20,9 @@ use ETaobao\Kernel\BaseClient;
  */
 class Client extends BaseClient
 {
-
     /**
-     * taobao.tbk.coupon.get (阿里妈妈推广券信息查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=31106&docType=2
+     * taobao.tbk.coupon.get (淘宝客-公用-阿里妈妈推广券详情查询)
+     * @line https://open.taobao.com/api.htm?docId=31106&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -32,5 +31,4 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.coupon.get', $params);
         return $res;
     }
-
 }

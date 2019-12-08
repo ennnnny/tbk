@@ -21,8 +21,8 @@ use ETaobao\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * taobao.tbk.shop.get (淘宝客店铺查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24521&docType=2
+     * taobao.tbk.shop.get (淘宝客-推广者-店铺搜索)
+     * @line https://open.taobao.com/api.htm?docId=24521&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -33,8 +33,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.shop.recommend.get (淘宝客店铺关联推荐查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24522&docType=2
+     * taobao.tbk.shop.recommend.get (淘宝客-公用-店铺关联推荐)
+     * @line https://open.taobao.com/api.htm?docId=24522&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

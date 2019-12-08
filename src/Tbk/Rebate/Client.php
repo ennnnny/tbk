@@ -21,8 +21,8 @@ use ETaobao\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * taobao.tbk.rebate.auth.get (淘宝客返利授权查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24525&docType=2
+     * taobao.tbk.rebate.auth.get (淘宝客-推广者-返利商家授权查询)
+     * @line https://open.taobao.com/api.htm?docId=24525&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -33,8 +33,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.rebate.order.get (淘宝客返利订单查询)
-     * @line http://open.taobao.com/docs/api.htm?apiId=24526&docType=2
+     * taobao.tbk.rebate.order.get (淘宝客-推广者-返利订单查询)
+     * @line https://open.taobao.com/api.htm?docId=24526&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */

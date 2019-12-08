@@ -22,8 +22,8 @@ class Client extends BaseClient
 {
 
     /**
-     * taobao.tbk.sc.newuser.order.get (淘宝客新用户订单API--社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=33897&docType=2
+     * taobao.tbk.sc.newuser.order.get (淘宝客-服务商-新用户订单明细查询)
+     * @line https://open.taobao.com/api.htm?docId=33897&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -34,8 +34,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.material.optional (通用物料搜索API)
-     * @line http://open.taobao.com/docs/api.htm?apiId=35263&docType=2
+     * taobao.tbk.sc.material.optional (淘宝客-服务商-物料搜索)
+     * @line https://open.taobao.com/api.htm?docId=35263&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -46,8 +46,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.newuser.order.sum (拉新活动汇总API--社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=36837&docType=2
+     * taobao.tbk.sc.newuser.order.sum (淘宝客-服务商-拉新活动对应数据查询)
+     * @line https://open.taobao.com/api.htm?docId=36837&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -58,8 +58,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.optimus.material (淘宝客擎天柱通用物料API - 社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=37884&docType=2
+     * taobao.tbk.sc.optimus.material (淘宝客-服务商-物料精选)
+     * @line https://open.taobao.com/api.htm?docId=37884&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -70,8 +70,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.publisher.info.save (淘宝客渠道信息备案 - 社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=37988&docType=2
+     * taobao.tbk.sc.publisher.info.save (淘宝客-公用-私域用户备案)
+     * @line https://open.taobao.com/api.htm?docId=37988&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -82,8 +82,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.publisher.info.get (淘宝客信息查询 - 社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=37989&docType=2
+     * taobao.tbk.sc.publisher.info.get (淘宝客-公用-私域用户备案信息查询)
+     * @line https://open.taobao.com/api.htm?docId=37989&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -94,8 +94,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.invitecode.get (淘宝客邀请码生成-社交)
-     * @line http://open.taobao.com/docs/api.htm?apiId=38046&docType=2
+     * taobao.tbk.sc.invitecode.get (淘宝客-公用-私域用户邀请码生成)
+     * @line https://open.taobao.com/api.htm?docId=38046&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -106,8 +106,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.groupchat.message.send (手淘群发单)
-     * @line http://open.taobao.com/api.htm?docId=38243&docType=2
+     * taobao.tbk.sc.groupchat.message.send (淘宝客-服务商-手淘群发单)
+     * @line https://open.taobao.com/api.htm?docId=38243&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -118,8 +118,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.groupchat.create (手淘群创建)
-     * @line http://open.taobao.com/api.htm?docId=38262&docType=2
+     * taobao.tbk.sc.groupchat.create (淘宝客-服务商-手淘群创建)
+     * @line https://open.taobao.com/api.htm?docId=38262&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -130,8 +130,8 @@ class Client extends BaseClient
     }
 
     /**
-     * taobao.tbk.sc.groupchat.get (手淘群查询)
-     * @line http://open.taobao.com/api.htm?docId=38263&docType=2
+     * taobao.tbk.sc.groupchat.get (淘宝客-服务商-手淘群查询)
+     * @line https://open.taobao.com/api.htm?docId=38263&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
      */
@@ -155,7 +155,7 @@ class Client extends BaseClient
     }
 
     /**
-     * 淘宝联盟官方活动推广API-工具
+     * taobao.tbk.sc.activitylink.toolget (淘宝客-服务商-官方活动转链)
      * @line https://open.taobao.com/api.htm?docId=41921&docType=2
      * @param array $params
      * @return array|mixed|\SimpleXMLElement|string
