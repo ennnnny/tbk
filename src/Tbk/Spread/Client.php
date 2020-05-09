@@ -29,9 +29,10 @@ class Client extends BaseClient
     public function getSpread(array $params)
     {
         if (isset($params['requests']) && is_array($params['requests'])) {
+            foreach ($params['requests'] as &$item) {
+                $item = json_encode($item);
+            }
             $data['requests'] = json_encode($params['requests']);
-        } elseif (is_array($params)) {
-            $data['requests'] = json_encode($params);
         } else {
             $data['requests'] = $params;
         }

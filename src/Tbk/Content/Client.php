@@ -62,4 +62,16 @@ class Client extends BaseClient
         $res = $this->httpPost('taobao.tbk.content.effect.get', $data);
         return $res;
     }
+
+    /**
+     * taobao.tbk.activity.info.get( 淘宝客-推广者-官方活动信息获取 )
+     * @line https://open.taobao.com/api.htm?docId=48340&docType=2
+     * @param array $params
+     * @return array|mixed|\SimpleXMLElement|string|null
+     */
+    public function getActivityInfo(array $params)
+    {
+        $res = $this->httpPost('taobao.tbk.activity.info.get', $params);
+        return $res;
+    }
 }

@@ -55,7 +55,7 @@ print_r($res);
 | taobao.tbk.uatm.favorites.get (淘宝客-推广者-选品库宝贝列表)   |    \$app->uatm->getFavorites()  |
 | taobao.tbk.ju.tqg.get (淘抢购api)    |    \$app->ju->getTqg()  |
 | taobao.tbk.item.click.extract (淘宝客-公用-链接解析出商品id)    |    \$app->item->clickExtract()  |
-| taobao.tbk.spread.get (淘宝客-公用-长链转短链)    |    \$app->spread->get()  |
+| taobao.tbk.spread.get (淘宝客-公用-长链转短链)    |    \$app->spread->getSpread()  |
 | taobao.tbk.item.guess.like (淘宝客商品猜你喜欢)   |    \$app->item->likeGuess()  |
 | taobao.tbk.dg.item.coupon.get (好券清单API【导购】)[**官网貌似已移除此接口**]    |    \$app->dg->getCoupon()  |
 | taobao.tbk.coupon.get (淘宝客-公用-阿里妈妈推广券详情查询)   |    \$app->coupon->get()  |
@@ -87,6 +87,7 @@ print_r($res);
 | taobao.tbk.dg.vegas.tlj.instance.report(淘宝客-推广者-淘礼金发放及使用报表)    |   \$app->dg->getTljReport()   |
 | taobao.tbk.dg.wish.update(媒体导购单选品)    |   \$app->dg->updateWish()   |
 | taobao.tbk.dg.wish.list(媒体淘客导购单查询)    |   \$app->dg->getWishList()   |
+| taobao.tbk.activity.info.get(淘宝客-推广者-官方活动信息获取)    |   \$app->content->getActivityInfo()   |
 
 ## 支持
 
