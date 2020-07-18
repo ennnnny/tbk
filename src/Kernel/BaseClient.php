@@ -11,6 +11,7 @@
 
 namespace ETaobao\Kernel;
 
+use ETaobao\Kernel\Exceptions\Exception;
 use ETaobao\Kernel\Support;
 
 /**
